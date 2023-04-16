@@ -1,0 +1,84 @@
+body{
+    background: url(https://abrakadabra.fun/uploads/posts/2021-12/1639835130_1-abrakadabra-fun-p-anime-oboi-v-stile-kiberpank-1.png);
+}
+.main{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(108, 68, 116, 0.411);
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 3px solid rgba(255, 109, 206, 0.379);
+}
+.main h1{
+    text-transform: uppercase;
+    cursor:default;
+    font-size: 24px;
+    transition: 500ms linear all;
+}
+.main h1:hover{
+    font-size: 44px;
+    transition: 500ms linear all;
+}
+.main h1::first-letter{
+    color: rgb(249, 69, 249);
+    
+}
+
+
+.main-context input{
+    margin-top: 20px;
+    width: 400px;
+    height: 25px;
+    outline: none;
+    border: 3px solid rgb(249, 69, 249);
+    border-radius: 40px;
+    color: white;
+    background: none;
+    transition: 500ms linear all;
+
+}
+.main-context input:focus{
+
+    border-radius: 0%;
+    transition: 500ms linear;
+}
+.main-context button{
+    margin-left: 25px;
+    width: 120px;
+    height: 25px;
+    background: none;
+    border: 3px solid rgb(249, 69, 249);
+    color: rgb(249, 69, 249);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 500ms linear all;
+
+}
+.main-context button:hover{
+    border-radius: 0%;
+    scale: 1.2;
+}
+.main-favorites{
+    width: 100%;
+    height: 60px;
+}
+.main-add-favorites{
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(132, 129, 132, 0.31);
+}
