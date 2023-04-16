@@ -36,8 +36,9 @@ body{
 .main-context input{
     margin-top: 20px;
     width: 400px;
-    height: 25px;
+    height: 55px;
     outline: none;
+    font-size:24px;
     border: 3px solid rgb(249, 69, 249);
     border-radius: 40px;
     color: white;
@@ -53,13 +54,14 @@ body{
 .main-context button{
     margin-left: 25px;
     width: 120px;
-    height: 25px;
+    height: 55px;
     background: none;
     border: 3px solid rgb(249, 69, 249);
     color: rgb(249, 69, 249);
     border-radius: 20px;
     cursor: pointer;
     transition: 500ms linear all;
+    font-size:24px;
 
 }
 .main-context button:hover{
